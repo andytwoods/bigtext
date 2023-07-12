@@ -1,5 +1,5 @@
 let text, container;
-const max_size = 200;
+const max_size = 100;
 const buffer_width = 10;
 document.addEventListener("DOMContentLoaded", function (event) {
     text = document.getElementById('my_input');
