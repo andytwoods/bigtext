@@ -1,79 +1,88 @@
- <!DOCTYPE html>
- <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
- <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Big text</title>
-	<link rel="canonical" href="https://www.bigtext.cc" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<!-- Icons and Colors -->
-	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-	<link rel="manifest" href="./manifest.json">
-	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#000000">
-	<link rel="shortcut icon" href="./favicon.ico">
-	<meta name="msapplication-TileColor" content="#000000">
-	<meta name="msapplication-TileImage" content="./mstile-144x144.png">
-	<meta name="msapplication-config" content="./browserconfig.xml">
-	<meta name="theme-color" content="#000000">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Big text</title>
+    <link rel="canonical" href="https://www.bigtext.cc"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="description" content="Big Text, making it easier to chat to your neighbour when bored in meetings" />
-	<meta name="robots" content="noodp" />
-	<meta name="author" content="Andy Woods">
-	<meta name="keywords" content="assive web application, example pwa, progressive web app basic, progressive web app builder, progressive web app example, progressive web app sample, progressive web app template, sample progressive web app, sample progressive web application, sample pwa, free progressive web application template, progressive web application template, progressive web app template free, progressive web app template free download, progressive web app html template, progressive web app template github" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Big Text" />
-	<meta property="og:description" content="Big Text, making it easier to chat to your neighbour when bored in meetings" />
-	<meta property="og:url" content="https://www.bigtext.cc" />
-	<meta property="og:site_name" content="Big Text" />
-	<meta property="og:image" content="https://www.bigtext.cc/share.jpg" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Big Text" />
-	<meta name="twitter:description" content="Big Text, making it easier to chat to your neighbour when bored in meetings" />
-	<meta name="twitter:site" content="@bigtext" />
-	<meta name="twitter:image" content="https://www.bigtext.cc/share.jpg" />
-	<meta name="twitter:creator" content="@andytwoods" />
+    <!-- Icons and Colors -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="./mstile-144x144.png">
+    <meta name="msapplication-config" content="./browserconfig.xml">
+    <meta name="theme-color" content="#000000">
 
-	<!-- Styles -->
-	<link rel="stylesheet" href="style.css">
+    <meta name="description" content="Big Text, making it easier to chat to your neighbour when bored in meetings"/>
+    <meta name="robots" content="noodp"/>
+    <meta name="author" content="Andy Woods">
+    <meta name="keywords"
+          content="assive web application, example pwa, progressive web app basic, progressive web app builder, progressive web app example, progressive web app sample, progressive web app template, sample progressive web app, sample progressive web application, sample pwa, free progressive web application template, progressive web application template, progressive web app template free, progressive web app template free download, progressive web app html template, progressive web app template github"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Big Text"/>
+    <meta property="og:description"
+          content="Big Text, making it easier to chat to your neighbour when bored in meetings"/>
+    <meta property="og:url" content="https://www.bigtext.cc"/>
+    <meta property="og:site_name" content="Big Text"/>
+    <meta property="og:image" content="https://www.bigtext.cc/share.jpg"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Big Text"/>
+    <meta name="twitter:description"
+          content="Big Text, making it easier to chat to your neighbour when bored in meetings"/>
+    <meta name="twitter:site" content="@bigtext"/>
+    <meta name="twitter:image" content="https://www.bigtext.cc/share.jpg"/>
+    <meta name="twitter:creator" content="@andytwoods"/>
 
-	<!-- Javscript -->
-	<script>
-		if ("serviceWorker" in navigator) {
-			window.addEventListener("load", () => {
-				navigator.serviceWorker && navigator.serviceWorker.register("./sw.js");
-			});
-		}
-	</script>
-	<script defer src="./main.js"></script>
- </head>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
 
- <body>
+    <!-- Javscript -->
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker && navigator.serviceWorker.register("./sw.js");
+            });
+        }
+    </script>
+    <script defer src="./main.js"></script>
+</head>
 
-
-		<div class="container">
-			<a href="./" class="logo" aria-label="Logo">
-				<img src="logo.png" alt="Logo">
-			</a>
-		</div>
-
-		<div id="my_input_parent">
-			<label for="my_input"></label><textarea id="my_input"></textarea>
-		</div>
+<body>
 
 
-	<footer>
-		<div class="container">
-			<p><span>Created by Andy Woods, 2023. Found a bug or want to contribute? Visit <a href="https://github.com/andytwoods/bigtext">https://github.com/andytwoods/bigtext</a></span></p>
-			<a href="http://creativecommons.org/licenses/by/4.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/bca967b18143b8a5b2ffe78bd4a1a30f6bc21de83bd8336f748e96498af38b38/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d43432532304259253230342e302d6c69676874677265792e737667" alt="CC BY 4.0" data-canonical-src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" style="max-width: 100%;"></a>
-		</div>
+<div class="container">
+    <a href="./" class="logo" aria-label="Logo">
+        <img src="logo.png" alt="Logo">
+    </a>
+</div>
 
-	</footer>
+<div id="my_input_parent">
+    <label for="my_input"></label><textarea id="my_input"></textarea>
+</div>
 
- </body>
 
- </html>
+<footer>
+    <div class="container">
+        <p><span>Created by Andy Woods, 2023. Found a bug or want to contribute? Visit: <a
+                href="https://github.com/andytwoods/bigtext">https://github.com/andytwoods/bigtext</a>
+			<a href="http://creativecommons.org/licenses/by/4.0/" rel="nofollow"><img
+                    src="https://camo.githubusercontent.com/bca967b18143b8a5b2ffe78bd4a1a30f6bc21de83bd8336f748e96498af38b38/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d43432532304259253230342e302d6c69676874677265792e737667"
+                    alt="CC BY 4.0"
+                    data-canonical-src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg"
+                    style="max-width: 100%;"></a>
+	</span></p>
+    </div>
+
+</footer>
+
+</body>
+
+</html>
