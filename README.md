@@ -1,6 +1,6 @@
 # bigtext
 
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
@@ -10,3 +10,8 @@ This work is licensed under a
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+
+Readme is 'in the works'.
+
+This project was inspired by a similar project, https://large-type.com/. There are several differences between the tools though, including being able to use 'enter' here, and this being a progressive web app. 
