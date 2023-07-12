@@ -1,0 +1,44 @@
+html, body {
+    background-color: black;
+    color: white;
+    font-family: Verdana,Geneva,sans-serif;
+}
+
+.container {
+    max-width: 768px;
+    padding: 15px 10%;
+}
+
+.logo {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo img {
+    background-color: white;
+}
+
+
+#my_input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: visible;
+    word-break: keep-all;
+    font-family: Verdana,Geneva,sans-serif;
+}
+
+#my_input_parent {
+
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

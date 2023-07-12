@@ -4,7 +4,7 @@ const buffer_width = 10;
 document.addEventListener("DOMContentLoaded", function (event) {
     text = document.getElementById('my_input');
     reset_txt();
-    container = document.getElementById('container');
+    container = document.getElementById('my_input_parent');
     welcome("Welcome! Start typing for BIG text!");
 
     text.addEventListener('input', function () {

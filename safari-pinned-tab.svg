@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 400px;
+        font-family: "Arial Black";
+      }
+
+      .cls-2 {
+        font-size: 270px;
+        font-family: "Andale Mono";
+      }
+    </style>
+  </defs>
+  <text id="BIG" class="cls-1" x="-0.405" y="466.296">BIG</text>
+  <text id="text" class="cls-2" x="72.595" y="674.296">text</text>
+</svg>
