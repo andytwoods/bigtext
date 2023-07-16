@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     text = document.getElementById('my_input');
     reset_txt();
     container = document.getElementById('my_input_parent');
-    welcome("Making it easier to chat\n with people around you");
+    welcome("Making it easier\n to chat with people around you");
 
     text.addEventListener('input', function () {
         resize();
