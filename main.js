@@ -1,11 +1,11 @@
 let text, container;
-const max_size = 100;
+const max_size = 200;
 const buffer_width = 10;
 document.addEventListener("DOMContentLoaded", function (event) {
     text = document.getElementById('my_input');
     reset_txt();
     container = document.getElementById('my_input_parent');
-    welcome("Big Text...\n making it easier to chat\n to your neighbour when you are bored in a meeting.");
+    welcome("Making it easier to chat\n with people around you");
 
     text.addEventListener('input', function () {
         resize();
